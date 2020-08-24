@@ -1,5 +1,5 @@
 export { };
 it('should work', () => {
-  cy.visit('http://localhost:3000');
+  cy.visit('/');
   cy.get('a').should('have.text', 'Learn React');
 });
